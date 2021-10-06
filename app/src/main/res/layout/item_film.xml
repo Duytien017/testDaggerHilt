@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/tvTitleFilm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SENCE8"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                android:id="@+id/tvView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lượt xem : 666.999"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aaaaaaaaaaaaaaaaaaaaaaa"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btn_watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@color/cardview_dark_background"
+                    android:padding="@dimen/_4sdp"
+                    android:text="watchfilm"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
